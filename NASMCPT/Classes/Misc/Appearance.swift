@@ -1,0 +1,21 @@
+//
+//  Appearance.swift
+//  Ged
+//
+//  Created by Andrey Chernyshev on 23.04.2021.
+//
+
+import UIKit
+
+struct Appearance {
+    static let backgroundColor = UIColor(integralRed: 255, green: 253, blue: 250)
+    
+    static let mainColor = UIColor(integralRed: 249, green: 160, blue: 78)
+    static let mainColorAlpha = UIColor(integralRed: 249, green: 160, blue: 78, alpha: 0.3)
+    
+    static let takeFreeTestColor = UIColor(integralRed: 249, green: 78, blue: 78)
+    
+    static let progress1Color = UIColor(integralRed: 249, green: 160, blue: 78)
+    static let progress2Color = UIColor(integralRed: 249, green: 78, blue: 78)
+    static let progress3Color = UIColor(integralRed: 69, green: 42, blue: 81)
+}
