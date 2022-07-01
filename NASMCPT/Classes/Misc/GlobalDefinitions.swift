@@ -6,7 +6,7 @@
 //
 
 final class GlobalDefinitions {
-    static let domainUrl = "https://exams.korrekted.com"
+    static let domainUrl = "https://exams3.mastrapi.com"
     static let apiKey = "q0zoS2BUwB2T4Cjx"
 
     static let sdkDomainUrl = "https://analytics.korrekted.com"
@@ -17,6 +17,7 @@ final class GlobalDefinitions {
     static let amplitudeApiKey = "b503251969f4b1d7901d2f7d1388d476"
     static let appsFlyerApiKey = "DCciCfYXjMQ8QnkdCg8qzk"
 
+    static let appStoreUrl = "https://apps.apple.com/app/nasm-cpt-fitness-prep/id1580266583"
     static let appleAppID = "1580266583"
 
     static let termsOfServiceUrl = "https://quantresear.ch/terms.html"

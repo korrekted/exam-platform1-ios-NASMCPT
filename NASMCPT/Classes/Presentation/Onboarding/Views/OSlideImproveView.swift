@@ -128,7 +128,7 @@ private extension OSlideImproveView {
 private extension OSlideImproveView {
     func makeTitleLabel() -> UILabel {
         let attrs = TextAttributes()
-            .textColor(UIColor(integralRed: 19, green: 24, blue: 42))
+            .textColor(Appearance.blackColor)
             .font(Fonts.SFProRounded.bold(size: 25.scale))
             .lineHeight(29.scale)
             .textAlignment(.center)
