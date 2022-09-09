@@ -31,6 +31,7 @@
 		968FCEB226C156E500C01D2A /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968FCEA626C156E500C01D2A /* ColorExtension.swift */; };
 		968FCEB326C156EF00C01D2A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 968FCE9126C1563D00C01D2A /* Localizable.strings */; };
 		968FCEBC26C1599C00C01D2A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 968FCEBB26C1599C00C01D2A /* GoogleService-Info.plist */; };
+		DE1D023228CB21E6003AC1FD /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DE1D023128CB21E6003AC1FD /* Onboarding.Chart.json */; };
 		DE2B6CD0286EC9BF00498A66 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2B6B0B286EC9BF00498A66 /* UIColorExtension.swift */; };
 		DE2B6CD1286EC9BF00498A66 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2B6B0C286EC9BF00498A66 /* Collection+Extension.swift */; };
 		DE2B6CD2286EC9BF00498A66 /* Observable+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2B6B0D286EC9BF00498A66 /* Observable+Utils.swift */; };
@@ -360,7 +361,6 @@
 		DE2B6E17286EC9D100498A66 /* Scalable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2B6B1A286EC9BF00498A66 /* Scalable.swift */; };
 		DE2B6E18286EC9DB00498A66 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2B6B73286EC9BF00498A66 /* Stats.swift */; };
 		DE2B6E19286EC9DF00498A66 /* StatsShareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2B6B86286EC9BF00498A66 /* StatsShareManager.swift */; };
-		DE2B6E1B286ECB5A00498A66 /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DE2B6E1A286ECB5A00498A66 /* Onboarding.Chart.json */; };
 		DE2B6E1D286ECBF200498A66 /* SF-Pro-Rounded-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE2B6E1C286ECBCA00498A66 /* SF-Pro-Rounded-Black.otf */; };
 		DF9955E6402C18CA5DF308D2 /* Pods_NASMCPT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C8AA416DA773435E0FA2D1 /* Pods_NASMCPT.framework */; };
 /* End PBXBuildFile section */
@@ -422,6 +422,7 @@
 		968FCEBB26C1599C00C01D2A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ACCEA090AB4CA80F3C48D1F3 /* Pods-NASMCPT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NASMCPT.release.xcconfig"; path = "Target Support Files/Pods-NASMCPT/Pods-NASMCPT.release.xcconfig"; sourceTree = "<group>"; };
 		D634710659703945E8071689 /* Pods-NASMCPT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NASMCPT.debug.xcconfig"; path = "Target Support Files/Pods-NASMCPT/Pods-NASMCPT.debug.xcconfig"; sourceTree = "<group>"; };
+		DE1D023128CB21E6003AC1FD /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		DE2B6B0B286EC9BF00498A66 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		DE2B6B0C286EC9BF00498A66 /* Collection+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
 		DE2B6B0D286EC9BF00498A66 /* Observable+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Utils.swift"; sourceTree = "<group>"; };
@@ -747,7 +748,6 @@
 		DE2B6CCD286EC9BF00498A66 /* OSlideTimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSlideTimeView.swift; sourceTree = "<group>"; };
 		DE2B6CCE286EC9BF00498A66 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		DE2B6CCF286EC9BF00498A66 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
-		DE2B6E1A286ECB5A00498A66 /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		DE2B6E1C286ECBCA00498A66 /* SF-Pro-Rounded-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Black.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -2273,7 +2273,7 @@
 		DE2B6CB6286EC9BF00498A66 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				DE2B6E1A286ECB5A00498A66 /* Onboarding.Chart.json */,
+				DE1D023128CB21E6003AC1FD /* Onboarding.Chart.json */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -2373,12 +2373,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE2B6E1D286ECBF200498A66 /* SF-Pro-Rounded-Black.otf in Resources */,
-				DE2B6E1B286ECB5A00498A66 /* Onboarding.Chart.json in Resources */,
 				968FCEBC26C1599C00C01D2A /* GoogleService-Info.plist in Resources */,
 				968FCE9226C1563D00C01D2A /* Localizable.strings in Resources */,
 				968FCE8E26C1563500C01D2A /* SF-Pro-Rounded-Regular.otf in Resources */,
 				968FCE8D26C1563500C01D2A /* SF-Pro-Rounded-Semibold.otf in Resources */,
 				968FCE9526C1566300C01D2A /* LaunchScreen.storyboard in Resources */,
+				DE1D023228CB21E6003AC1FD /* Onboarding.Chart.json in Resources */,
 				968FCC4C26C1526100C01D2A /* Assets.xcassets in Resources */,
 				968FCE8F26C1563500C01D2A /* SF-Pro-Rounded-Bold.otf in Resources */,
 			);
@@ -2949,7 +2949,7 @@
 				CODE_SIGN_ENTITLEMENTS = NASMCPT/NASMCPT.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 14;
+				CURRENT_PROJECT_VERSION = 15;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = "$(SRCROOT)/NASMCPT/Resource/Info.plist";
@@ -2958,7 +2958,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.nasmcpt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "NASM CPT Prod";
@@ -2978,7 +2978,7 @@
 				CODE_SIGN_ENTITLEMENTS = NASMCPT/NASMCPT.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 14;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = "$(SRCROOT)/NASMCPT/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -2986,7 +2986,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.nasmcpt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "NASM CPT Prod";
@@ -3004,7 +3004,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 14;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -3013,7 +3013,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.nasmcpt.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "NASM CPT Widget Prod";
@@ -3031,7 +3031,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 14;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -3040,7 +3040,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.nasmcpt.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "NASM CPT Widget Prod";
